@@ -3,7 +3,7 @@ name = input()
 surname = input()
 age = int(input())
 
-if len(name) > 5:
+if len(name) >= 5 and len(surname) >= 5:
     print(name[:2] + surname[-1] + str(age)[-1])
 else:
     print(name[:1] + str(age) + surname[-1])
