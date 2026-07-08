@@ -1,9 +1,9 @@
 """ Elo """
 ea = int(input())
 eb = int(input())
-type = input()
+typeofqua = input()
 
-if type == "A":
+if typeofqua == "A":
     result = 1 / (1 + 10 ** ((eb - ea)/400) )
 else:
     result = 1 / (1 + 10 ** ((ea - eb)/400) )
